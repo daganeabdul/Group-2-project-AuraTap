@@ -2,7 +2,7 @@
 Constants used throughout AuraTap application
 """
 
-# Order Status
+
 ORDER_STATUS_PENDING = 'pending'
 ORDER_STATUS_PREPARING = 'preparing'
 ORDER_STATUS_READY = 'ready'
@@ -15,7 +15,7 @@ ORDER_STATUSES = [
     ORDER_STATUS_SERVED
 ]
 
-# Table Status
+
 TABLE_STATUS_AVAILABLE = 'available'
 TABLE_STATUS_OCCUPIED = 'occupied'
 
@@ -37,7 +37,7 @@ PAYMENT_METHODS = [
     PAYMENT_METHOD_CASH
 ]
 
-# Payment Status
+
 PAYMENT_STATUS_PENDING = 'pending'
 PAYMENT_STATUS_COMPLETED = 'completed'
 PAYMENT_STATUS_FAILED = 'failed'
@@ -48,7 +48,7 @@ PAYMENT_STATUSES = [
     PAYMENT_STATUS_FAILED
 ]
 
-# Menu Categories
+
 CATEGORY_APPETIZER = 'Appetizer'
 CATEGORY_MAIN_COURSE = 'Main Course'
 CATEGORY_DESSERT = 'Dessert'
@@ -63,7 +63,7 @@ MENU_CATEGORIES = [
     CATEGORY_SALAD
 ]
 
-# Staff Roles
+
 ROLE_MANAGER = 'manager'
 ROLE_WAITER = 'waiter'
 ROLE_CHEF = 'chef'
@@ -76,15 +76,15 @@ STAFF_ROLES = [
     ROLE_CASHIER
 ]
 
-# Ratings
+
 MIN_RATING = 1
 MAX_RATING = 5
 
-# Pagination
+
 DEFAULT_PAGE_SIZE = 20
 MAX_PAGE_SIZE = 100
 
-# API Response Messages
+
 MSG_SUCCESS = 'Operation completed successfully'
 MSG_CREATED = 'Resource created successfully'
 MSG_UPDATED = 'Resource updated successfully'
