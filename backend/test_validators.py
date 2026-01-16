@@ -79,7 +79,7 @@ class TestValidators(unittest.TestCase):
         invalid_phones = [
             '123456',
             '07123',
-            '0812345678',  # Wrong prefix
+            '0812345678',  # Wrong prefix-
             '+255712345678',  # Wrong country code
             'abcdefghij',
             ''
